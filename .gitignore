@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment
+.venv/
+venv/
+.env
+.DS_Store
+
+# The assignment database intentionally contains plaintext demo passwords.
+instance/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Editors
+.idea/
+.vscode/
+
+# Draft and temporary working files
+work/
+outputs/
